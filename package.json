@@ -1,0 +1,14 @@
+{
+  "name": "render-proxy-service",
+  "version": "1.0.0",
+  "description": "Web service that routes HTTPS requests through configured proxies with custom Host/SNI.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "https-proxy-agent": "^7.0.6"
+  }
+}
